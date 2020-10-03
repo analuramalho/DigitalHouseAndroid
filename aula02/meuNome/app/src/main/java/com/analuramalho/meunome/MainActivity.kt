@@ -1,9 +1,7 @@
-package com.analuramalho.exemploaula
+package com.analuramalho.meunome
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
-import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -11,10 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<TextView>(R.id.txtNome).text = "BBB"
-        //txtNome.text="AAAAAAA"
+        btnExibirNome.setOnClickListener{
+            val nome = edtNome.text.toString()
 
-
+            txtExibir.text=getString(R.string.mensagemNome,nome)
+        }
 
     }
 }
