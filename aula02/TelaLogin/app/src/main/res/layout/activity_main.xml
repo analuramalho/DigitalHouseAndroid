@@ -7,12 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:padding="15dp"
-    android:background="#C180FF">
+    android:background="@color/colorBackground">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FOOBAR"
+        android:text="@string/foobar"
         android:layout_gravity="center"
         android:fontFamily="sans-serif-light"
         android:textSize="24dp"
@@ -24,10 +24,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email "
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:textColorHint="@color/colorAccent"
-        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
         android:backgroundTint="#ffffff"
         />
 
@@ -35,11 +35,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password "
+        android:hint="@string/password"
         android:inputType="textPassword"
-        android:textColorHint="@color/colorAccent"
-        android:backgroundTint="@color/colorAccent"
-        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
         android:layout_marginTop="10dp"
         />
 
@@ -49,9 +49,9 @@
         android:background="#8BC34A"
         android:padding="15dp"
         android:layout_marginTop="30dp"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:textSize="20sp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorWhite"
         android:backgroundTint="#8051C4"/>
 
     <LinearLayout
@@ -66,7 +66,7 @@
             android:layout_gravity="bottom"
             android:text="@string/underline"
             android:textSize="14sp"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorWhite"/>
 
     </LinearLayout>
 
