@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculoSalarioHora</string>
+    <string name="edt_valor_hora">15</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="horas_trabalhadas">Horas Trabalhadas</string>
+    <string name="edt_horas">180</string>
+    <string name="valor_da_hora"><b>Valor da Hora</b></string>
+    <string name="salario">R$ %.2f</string>
+</resources>

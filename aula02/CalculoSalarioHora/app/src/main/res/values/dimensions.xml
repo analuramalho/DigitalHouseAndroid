@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">30dp</dimen>
+    <dimen name="main_padding">20dp</dimen>
+    <dimen name="title_size">25sp</dimen>
+    <dimen name="result_size">24sp</dimen>
+    <dimen name="text_button_size">25sp</dimen>
+</resources>
