@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="#C180FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOOBAR"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textSize="24dp"
+        android:padding="50dp"
+        android:layout_margin="50dp"
+        android:backgroundTint="#fff"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:backgroundTint="#ffffff"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password "
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:backgroundTint="#8051C4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/underline"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

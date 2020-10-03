@@ -11,6 +11,7 @@
     <TextView
         android:layout_width="85dp"
         android:layout_height="wrap_content"
+        android:text="Text"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="#7380CA"
@@ -20,7 +21,7 @@
         android:paddingVertical="5dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Text" />
+        />
 
     <TextView
         android:layout_width="85dp"
