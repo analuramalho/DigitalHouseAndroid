@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FakeLoginApp</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="name">name</string>
+    <string name="log_in">Log in</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up">SIGN UP</string>
+</resources>
