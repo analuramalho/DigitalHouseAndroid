@@ -23,5 +23,17 @@ class MainActivity : AppCompatActivity() {
         val titulos = listOf(getString(R.string.home),getString(R.string.biblioteca),getString(R.string.favoritos))
 
         pager.adapter=ViewPagerAdapter(fragment,titulos,supportFragmentManager)
+
+        //adicionando icones nas tabs
+        tab.getTabAt(0)!!.setIcon(R.drawable.ic_baseline_home_24)
+        tab.getTabAt(1)!!.setIcon(R.drawable.ic_baseline_library_books_24)
+        tab.getTabAt(2)!!.setIcon(R.drawable.ic_baseline_star_24)
+
+        //notificação na tab
+        tab.getTabAt(0)!!.orCreateBadge.apply {
+            number=100
+            maxCharacterCount=3
+            isVisible=true
+        }
     }
 }

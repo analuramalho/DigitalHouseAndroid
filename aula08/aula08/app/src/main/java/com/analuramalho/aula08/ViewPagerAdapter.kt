@@ -15,6 +15,8 @@ class ViewPagerAdapter(private val fragments:List<Fragment>,
     //retorna fragment correspondente a posição
     override fun getItem(position: Int)= fragments[position]
 
+
     //retorna nome da tab
     override fun getPageTitle(position: Int)=titulos[position]
+    //para deixar só os icones é só retirar a linha acima
 }
