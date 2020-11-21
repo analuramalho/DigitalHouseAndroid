@@ -11,5 +11,4 @@ class ItemViewHolder(view: View): RecyclerView.ViewHolder(view) {
     fun bind(categories: String){
         category.text=categories.capitalize()
     }
-
 }

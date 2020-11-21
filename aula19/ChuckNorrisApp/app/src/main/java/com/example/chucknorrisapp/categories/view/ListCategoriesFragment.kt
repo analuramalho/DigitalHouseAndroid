@@ -54,7 +54,7 @@ class ListCategoriesFragment : Fragment() {
     private fun getList(categories:List<String>) {
         val viewManager = LinearLayoutManager(_view.context)
         val viewAdapter = ListCategoriesAdapter(categories){
-            val bundle = bundleOf("CATEGORY" to it)
+            val bundle = bundleOf(getString(R.string.CATEGORY) to it)
             _navController.navigate(R.id.jokesFragment,bundle)
         }
 
